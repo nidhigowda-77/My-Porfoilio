@@ -20,7 +20,7 @@ export const Contact = () => {
           </form>
           <div className="flex  flex-col gap-7 ">
             {data.map((val,i)=>(
-              <div id={i} className="flex gap-4 w-fit items-center">
+              <div id={i} className="flex  gap-4 w-fit items-center">
               <div className="min-w-[3.5rem] min-h-[3.5rem] text-3xl flex items-center justify-center text-white bg-cyan-600 rounded-full">
                 <ion-icon name={val.logo}></ion-icon>
               </div>

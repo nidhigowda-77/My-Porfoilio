@@ -9,11 +9,18 @@ import dp1 from "../assets/dp1.jpg";
 import weatherApp from "../assets/weather.jpg";
 const Project = () => {
   const projects = [
+    
     {
       img: weatherApp,
       name: "weather-app",
       gitHubLink: "https://github.com/nidhigowda-77/Weather-App.git",
       liveLink: "https://nidhi-weather-app.vercel.app/",
+    },
+    {
+      img: "https://miro.medium.com/v2/resize:fit:1400/1*eWbNRY_UnGFJC5YqcqBSwA.jpeg",
+      name: "food-Store-app",
+      gitHubLink: "https://github.com/nidhigowda-77/Food_Store-app.git",
+      liveLink: "https://nidhi-food-store.vercel.app/",
     },
     {
       img: todo,
