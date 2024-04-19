@@ -10,7 +10,7 @@ export const Navbar = () => {
     { name: "CONTACT", link: "#contact" },
   ];
   useEffect(() => {
-    window.addEventListener("scroll", () => {
+    window.addEventListener("scroll", function(){
       const nav = document.querySelector("nav");
       window.scrollY > 0 ? setSticky(true) : setSticky(false);
     });

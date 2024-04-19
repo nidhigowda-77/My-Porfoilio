@@ -33,7 +33,7 @@ export const About = () => {
               </div>
               <br />
               <br />
-              <a href="./src/assets/Nidhi-Resume.pdf" download>
+              <a href="https://drive.google.com/file/d/1zLYx5aBjw_XhYsewDGux7Db9Y6YoldPJ/view?usp=drive_link" download>
                 <button className="btn-primary">Download CV</button>
               </a>
             </div>
